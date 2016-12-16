@@ -4,12 +4,18 @@ var app = getApp()
 Page({
   data: {
     motto: 'Hello World',
+    cal:'进入计算器',
     userInfo: {}
   },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
       url: '../logs/logs'
+    })
+  },
+  toCalc: function() {
+    wx.navigateTo({
+      url: '../cal/cal'
     })
   },
   onLoad: function () {

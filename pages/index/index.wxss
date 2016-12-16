@@ -19,3 +19,8 @@
 .usermotto {
   margin-top: 200px;
 }
+
+.cal {
+  display: flex;
+  margin-top: 20px;
+}

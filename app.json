@@ -1,11 +1,12 @@
 {
   "pages":[
-    "pages/index/index"
+    "pages/cal/cal",
+    "pages/history/history"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#da7c0c",
+    "navigationBarTitleText": "简易计算器",
+    "navigationBarTextStyle":"white"
   }
 }
